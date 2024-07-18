@@ -3,7 +3,7 @@
 name: build iwasm release
 
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       arch:
         description: arch of the release
